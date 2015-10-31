@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+h1{
+
+}
+h2{
+
+}
+
+ul{
+	padding-left: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+.body-wrapper{
+	width: 1170px;
+	padding: 0 15px 0 15px;
+	margin:  0 auto;
+}
+
+/* Header Styles */
+.header{
+	overflow: hidden;
+	clear: both;
+	padding-bottom: 40px;
+	border-bottom: 1px solid silver;
+}
+
+.logo{
+	float: left;
+}
+
+.nav{
+	float: right;
+}
+.top-menu ul li{
+	display: inline-block;
+}
+
+.top-menu ul li a{
+	color: #fff;
+	padding: 15px 25px;
+	display: inline-block;
+	background: #feb;
+}
+
+/* Main Section Style  */
+.banner, .about, .gallery, .contact{
+	clear: both;
+	overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid silver;
+}
+.description{
+	float: left;
+	width: 65%;
+	padding-right: 5%;
+}
+.about-image{
+	float: left;
+	width: 30%;
+}
+
+.gallery-list{
+	
+}
+
+.gallery-list li{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.con-el{
+	float: left;
+	width: 31%;
+	padding: 1%;
+}
+
+/* Footer Style  */
+footer{
+	padding: 15px 0;
+	overflow: hidden;
+}
+.copyright{
+	float: left;
+}
+.footer-nav ul li {
+	display: inline-block;
+}
+
+.footer-nav ul li a{
+	display: inline-block;
+	color: #0078A0;
+	text-decoration: none;
+	padding: 0 20px;
+}
